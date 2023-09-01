@@ -20,8 +20,8 @@ public class Excel_create
 		Workbook book = WorkbookFactory.create(file);
 		Sheet sheet = book.getSheet(a);
 		
-		Row row = sheet.createRow(b);
-		Cell cell = row.createCell(c);
+		//Row row = sheet.createRow(b);
+		//Cell cell = row.createCell(c);
 		cell.setCellValue(d);
 		
 		FileOutputStream fi=new FileOutputStream(path);
